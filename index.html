@@ -1,0 +1,353 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana de Tecnologia e Cultura | IFCE</title>
+
+    <style>
+        /* Configurações gerais */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #a6b5a6;
+            color: #173e1a;
+            margin: 0;
+            font-size: 16px;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #055c1d;
+            color: white;
+            padding: 30px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            letter-spacing: 2px;
+            margin-top: 0;
+        }
+
+        header p {
+            line-height: 1.6;
+        }
+
+        /* Menu */
+        nav {
+            background-color: #09390a;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffe082;
+        }
+
+        /* Seções principais */
+        section {
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid #71916d;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #055c1d;
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        #sobre p {
+            text-align: justify;
+        }
+
+        #sobre img {
+            width: 400px;
+            height: 250px;
+            border: 3px solid #166312;
+            max-width: 100%;
+            object-fit: cover;
+            display: block;
+            margin: 20px auto;
+        }
+
+        /* Tabela de programação */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #8dae8c;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #12631d;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #edf4f8;
+        }
+
+        /* Classe comum das caixas */
+        .atividade {
+            width: 300px;
+            height: 180px;
+            padding: 20px;
+            margin: 15px;
+            border: 3px solid;
+            box-sizing: content-box;
+        }
+
+        .atividade h3 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        .atividade a {
+            color: #123b63;
+            font-weight: bold;
+        }
+
+        /* Caixa 1 */
+        .caixa-azul {
+            background-color: #cce5ff;
+            border-color: #055c1d;
+        }
+
+        /* Caixa 2 */
+        .caixa-verde {
+            background-color: #d4edda;
+            border-color: green;
+            border-radius: 15px;
+        }
+
+        /* Caixa 3 */
+        .caixa-vermelha {
+            background-color: #f8d7da;
+            border: 5px solid purple;
+            border-radius: 30px;
+            border-top-left-radius: 0px;
+        }
+
+        /* Inscrições */
+        #inscricoes {
+            background-color: #e5f5f5;
+            border-color: #138b08;
+        }
+
+        #inscricoes a {
+            color: #117007;
+            font-weight: bold;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #055c1d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Semana de Tecnologia e Cultura</h1>
+        <p>
+            IFCE Campus Maranguape — Um encontro de conhecimento,
+            criatividade, inovação e cultura.
+        </p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#programacao">Programação</a></li>
+            <li><a href="#atividades">Atividades</a></li>
+            <li><a href="#inscricoes">Inscrições</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="sobre">
+            <h2>Sobre o evento</h2>
+
+            <p>
+                A Semana de Tecnologia e Cultura do IFCE Campus
+                Maranguape é um evento voltado à integração entre
+                estudantes, professores e comunidade. O objetivo
+                é incentivar o aprendizado, a criatividade e a troca
+                de conhecimentos por meio de atividades educativas
+                e culturais.
+            </p>
+
+            <p>
+                Durante o evento, os participantes poderão conhecer
+                novas tecnologias, participar de oficinas, assistir
+                a palestras e explorar diferentes formas de expressão
+                artística. Será uma oportunidade para desenvolver
+                habilidades, compartilhar experiências e descobrir
+                novos interesses.
+            </p>
+
+            <img
+                src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
+                alt="Estudantes utilizando computadores em um ambiente de aprendizagem"
+            >
+        </section>
+
+        <section id="programacao">
+            <h2>Programação</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Horário</th>
+                        <th>Atividade</th>
+                        <th>Local</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>08h00</td>
+                        <td>Abertura do evento</td>
+                        <td>Auditório</td>
+                    </tr>
+
+                    <tr>
+                        <td>09h00</td>
+                        <td>Palestra sobre tecnologia</td>
+                        <td>Auditório</td>
+                    </tr>
+
+                    <tr>
+                        <td>10h30</td>
+                        <td>Oficina de programação</td>
+                        <td>Laboratório de Informática</td>
+                    </tr>
+
+                    <tr>
+                        <td>14h00</td>
+                        <td>Apresentações culturais</td>
+                        <td>Pátio do campus</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>
+                <em>Observação: os horários e locais são ilustrativos
+                e devem ser confirmados pela organização do evento.</em>
+            </p>
+        </section>
+
+        <section id="atividades">
+            <h2>Atividades disponíveis</h2>
+
+            <div class="atividade caixa-azul">
+                <h3>Oficina de Programação</h3>
+
+                <p>
+                    Aprenda conceitos básicos de programação e
+                    desenvolva seu raciocínio lógico.
+                </p>
+
+                <a href="https://www.python.org/" target="_blank"
+                   rel="noopener noreferrer">
+                    Saiba mais
+                </a>
+            </div>
+
+            <div class="atividade caixa-verde">
+                <h3>Feira de Tecnologia</h3>
+
+                <p>
+                    Conheça projetos estudantis, experimentos
+                    tecnológicos e ideias inovadoras.
+                </p>
+
+                <a href="https://www.ifce.edu.br/" target="_blank"
+                   rel="noopener noreferrer">
+                    Saiba mais
+                </a>
+            </div>
+
+            <div class="atividade caixa-vermelha">
+                <h3>Mostra Cultural</h3>
+
+                <p>
+                    Explore apresentações artísticas e manifestações
+                    culturais da comunidade acadêmica.
+                </p>
+
+                <a href="https://www.ifce.edu.br/" target="_blank"
+                   rel="noopener noreferrer">
+                    Saiba mais
+                </a>
+            </div>
+        </section>
+
+        <section id="inscricoes">
+            <h2>Inscrições</h2>
+
+            <p>
+                Quer participar da Semana de Tecnologia e Cultura?
+                Acompanhe os canais oficiais do IFCE para obter
+                informações sobre inscrições, horários e atividades.
+            </p>
+
+            <p>
+                <a href="https://www.ifce.edu.br/" target="_blank"
+                   rel="noopener noreferrer">
+                    Acesse o site oficial do IFCE
+                </a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Instituto Federal de Educação, Ciência e Tecnologia do Ceará</p>
+        <p>Campus Maranguape</p>
+        <p>Responsáveis pela página: Mário Gabriel e Bryan Willian</p>
+        <p>&copy; 2026 — Semana de Tecnologia e Cultura</p>
+    </footer>
+
+</body>
+</html>
